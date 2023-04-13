@@ -28,5 +28,4 @@ setup(
     packages = find_packages(),     # finds the __init__.py file in any of the folders. For us it's src. 
     install_requires = get_requirements("requirements.txt")
 )
-
 # IF setup.py runs successsfully then egg-info file / folder should come. 
