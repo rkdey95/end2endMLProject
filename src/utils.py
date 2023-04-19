@@ -1,5 +1,6 @@
 import os
 import sys
+sys.path.append(os.path.abspath(os.curdir))
 import numpy  as np
 import pandas as pd
 import dill

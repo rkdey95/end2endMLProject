@@ -1,3 +1,5 @@
+import os, sys
+sys.path.append(os.path.abspath(os.curdir))
 import pickle 
 from flask import Flask, request, render_template
 import numpy as np

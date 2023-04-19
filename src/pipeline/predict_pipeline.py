@@ -1,6 +1,7 @@
 # creating a prediction pipeline 
 import sys
 import os 
+sys.path.append(os.path.abspath(os.curdir))
 import pandas as pd 
 from src.exception import CustomException
 from src.logger import logging
